@@ -33,8 +33,7 @@ void debug_out(Head H, Tail... T) {
 #define ll long long
 
 int main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+    
 
     return 0;
 }

@@ -33,5 +33,7 @@ void debug_out(Head H, Tail... T) {
 #define ll long long
 
 int main() {
+    
+
     return 0;
 }

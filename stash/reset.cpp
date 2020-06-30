@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define ll long long
 string to_string(const string& s) { return '"' + s + '"'; }
 string to_string(bool b) { return (b ? "true" : "false"); }
 template <typename A>
@@ -31,13 +30,11 @@ void debug_out(Head H, Tail... T) {
 }
 #define debug(...) cerr << "[" << #__VA_ARGS__ << "]:", debug_out(__VA_ARGS__)
 
-// * YOUR CODE START HERE
-
-void solve() {
-    
-}
+#define ll long long
 
 int main() {
-    solve();
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
     return 0;
 }
