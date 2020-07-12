@@ -65,7 +65,8 @@ bool removeWord(struct Node *root, string s, int level, int len) {
 		return false;
 	}
 	int flag = removeWord(root->child[ch], s, level + 1, len);
-	if (flag && !isWord(root->child[ch]) && isEmpty(root->child[ch])) {
+	if (flag && !isWord(root->child[ch]) &&
+		isEmpty(root->child[ch])) {
 		delete root->child[ch];
 		root->child[ch] = NULL;
 	}
